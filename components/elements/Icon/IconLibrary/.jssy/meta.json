@@ -1,0 +1,34 @@
+{
+    "displayName": "IconLibrary",
+    "textKey": "name",
+    "descriptionTextKey": "description",
+    "kind": "atomic",
+    "group": "media",
+    "props": {
+        "name": {
+            "textKey": "props_name",
+            "descriptionTextKey": "props_name_desc",
+            "type": "string",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": "cube"
+                }
+            }
+        }
+    },
+    "placement": {
+        "inside": {
+            "include": [
+                { "tag": "all" },
+                { "tag": "block" },
+                { "tag": "text" },
+                { "tag": "article" },
+                { "tag": "sidebar" },
+                { "tag": "header" },
+                { "tag": "footer" },
+                { "tag": "app" }
+            ]
+        }
+    }
+}

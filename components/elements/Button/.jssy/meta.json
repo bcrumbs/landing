@@ -1,0 +1,192 @@
+{
+  "displayName": "Button",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "atomic",
+  "group": "controls",
+  "props": {
+    "text": {
+      "textKey": "props_text",
+      "descriptionTextKey": "props_text_desc",
+      "group": "content",
+      "type": "string",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "defaultTextKey": "props_text_default"
+        }
+      }
+    },
+    "icon": {
+      "textKey": "props_icon",
+      "descriptionTextKey": "props_icon_desc",
+      "group": "content",
+      "type": "string",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "disabled": {
+      "textKey": "props_disabled",
+      "descriptionTextKey": "props_disabled_desc",
+      "group": "state",
+      "type": "bool",
+      "source": ["static", "data"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        },
+        "data": {}
+      }
+    },
+    "light": {
+      "textKey": "props_light",
+      "descriptionTextKey": "props_light_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "style": {
+      "textKey": "props_style",
+      "descriptionTextKey": "props_style_desc",
+      "group": "style",
+      "type": "oneOf",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "default"
+        }
+      },
+      "options": [
+        { "value": "default", "textKey": "props_style_default" },
+        { "value": "raised", "textKey": "props_style_raised" }
+      ]
+    },
+    "size": {
+      "textKey": "props_size",
+      "descriptionTextKey": "props_size_desc",
+      "group": "style",
+      "type": "oneOf",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "normal"
+        }
+      },
+      "options": [
+        { "value": "normal", "textKey": "props_size_normal" },
+        { "value": "small", "textKey": "props_size_small" },
+        { "value": "large", "textKey": "props_size_large" },
+        { "value": "inline", "textKey": "props_size_inline" }
+      ]
+    },
+    "kind": {
+      "textKey": "props_kind",
+      "descriptionTextKey": "props_kind_desc",
+      "group": "style",
+      "type": "oneOf",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "flat"
+        }
+      },
+      "options": [
+        { "value": "flat", "textKey": "props_kind_flat" },
+        { "value": "primary", "textKey": "props_kind_primary" },
+        { "value": "secondary", "textKey": "props_kind_secondary" },
+        { "value": "alert", "textKey": "props_kind_alert" },
+        { "value": "success", "textKey": "props_kind_success" },
+        { "value": "warning", "textKey": "props_kind_warning" },
+        { "value": "info", "textKey": "props_kind_info" },
+        { "value": "outline-primary", "textKey": "props_kind_outline-primary" },
+        { "value": "white", "textKey": "props_kind_white" },
+        { "value": "link", "textKey": "props_kind_link" }
+      ]
+    },
+    "narrow": {
+      "textKey": "props_narrow",
+      "descriptionTextKey": "props_narrow_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "rounded": {
+      "textKey": "props_rounded",
+      "descriptionTextKey": "props_rounded_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "iconSource": {
+      "textKey": "props_iconSource",
+      "descriptionTextKey": "props_iconSource_desc",
+      "type": "string",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "font-awesome"
+        }
+      },
+      "options": [
+        { "value": "font-awesome", "textKey": "props_iconSource_fontAwesome" },
+        { "value": "library", "textKey": "props_iconSource_library" }
+      ]
+    },
+    "onPress": {
+      "textKey": "props_onPress",
+      "descriptionTextKey": "props_onPress_desc",
+      "type": "func",
+      "source": ["actions"],
+      "sourceConfigs": {
+        "actions": {
+          "args": []
+        }
+      }
+    }
+  },
+  "propGroups": [
+    { "name": "content", "textKey": "prop_group_content" },
+    { "name": "state", "textKey": "prop_group_state" },
+    { "name": "style", "textKey": "prop_group_style" }
+  ],
+  "placement": {
+    "inside": {
+      "include": [
+        { "tag": "all" },
+        { "tag": "block" },
+        { "tag": "text" },
+        { "tag": "actions" },
+        { "tag": "article" },
+        { "tag": "sidebar" },
+        { "tag": "header" },
+        { "tag": "footer" },
+        { "tag": "app" },
+        { "component": "ButtonsGroup" }
+      ],
+      "exclude": [
+        { "component": "CardContent" },
+        { "component": "CardContentText" },
+        { "component": "CardContentText" }
+      ]
+    }
+  }
+}

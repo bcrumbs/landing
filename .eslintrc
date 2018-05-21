@@ -1,0 +1,7 @@
+{
+  "extends": "@eslint/eslint-config-client",
+  "rules": {
+    "no-param-reassign": [2, { "props": true }],
+    "no-unsafe-finally": [0]
+  }
+}

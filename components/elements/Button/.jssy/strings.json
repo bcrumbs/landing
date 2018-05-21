@@ -1,0 +1,186 @@
+{
+  "name": {
+    "en": "Button",
+    "ru": "Кнопка"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "prop_group_content": {
+    "en": "Content",
+    "ru": "Содержимое"
+  },
+  "prop_group_state": {
+    "en": "State",
+    "ru": "Состояние"
+  },
+  "prop_group_style": {
+    "en": "Style",
+    "ru": "Стиль"
+  },
+  "props_text": {
+    "en": "Text",
+    "ru": "Текст"
+  },
+  "props_text_default": {
+    "en": "Button",
+    "ru": "Кнопка"
+  },
+  "props_text_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_icon": {
+    "en": "Icon",
+    "ru": "Иконка"
+  },
+  "props_icon_desc": {
+    "en": "Font Awesome icon name",
+    "ru": "Имя иконки из Font Awesome"
+  },
+  "props_disabled": {
+    "en": "Disabled",
+    "ru": "Неактивна"
+  },
+  "props_disabled_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_light": {
+    "en": "Light",
+    "ru": ""
+  },
+  "props_light_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_style": {
+    "en": "Style",
+    "ru": "Стиль"
+  },
+  "props_style_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_style_default": {
+    "en": "Default",
+    "ru": "По умолчанию"
+  },
+  "props_style_raised": {
+    "en": "Raised",
+    "ru": "Приподнятая кнопка"
+  },
+  "props_size": {
+    "en": "Size",
+    "ru": "Размер"
+  },
+  "props_size_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_size_normal": {
+    "en": "Normal",
+    "ru": "Нормальный"
+  },
+  "props_size_small": {
+    "en": "Small",
+    "ru": "Маленький"
+  },
+  "props_size_large": {
+    "en": "Large",
+    "ru": "Большой"
+  },
+  "props_size_inline": {
+    "en": "Inline",
+    "ru": "Встроенная кнопка"
+  },
+  "props_kind": {
+    "en": "Kind",
+    "ru": "Вид"
+  },
+  "props_kind_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_kind_flat": {
+    "en": "Flat",
+    "ru": ""
+  },
+  "props_kind_primary": {
+    "en": "Primary",
+    "ru": ""
+  },
+  "props_kind_secondary": {
+    "en": "Secondary",
+    "ru": ""
+  },
+  "props_kind_alert": {
+    "en": "Alert",
+    "ru": ""
+  },
+  "props_kind_success": {
+    "en": "Success",
+    "ru": ""
+  },
+  "props_kind_warning": {
+    "en": "Warning",
+    "ru": ""
+  },
+  "props_kind_info": {
+    "en": "Info",
+    "ru": ""
+  },
+  "props_kind_white": {
+    "en": "White",
+    "ru": ""
+  },
+  "props_kind_link": {
+    "en": "Link",
+    "ru": ""
+  },
+  "props_kind_outline-primary": {
+    "en": "Outline primary",
+    "ru": ""
+  },
+  "props_narrow": {
+    "en": "Narrow",
+    "ru": ""
+  },
+  "props_narrow_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_rounded": {
+    "en": "Rounded",
+    "ru": ""
+  },
+  "props_rounded_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_iconSource": {
+    "en": "Source",
+    "ru": "Источник"
+  },
+  "props_iconSource_desc": {
+    "en": "Icon source",
+    "ru": "Источник иконки"
+  },
+  "props_iconSource_fontAwesome": {
+    "en": "Font Awesome",
+    "ru": ""
+  },
+  "props_iconSource_library": {
+    "en": "User library",
+    "ru": "Пользовательская библиотека"
+  },
+  "props_onPress": {
+    "en": "Press",
+    "ru": ""
+  },
+  "props_onPress_desc": {
+    "en": "",
+    "ru": ""
+  }
+}

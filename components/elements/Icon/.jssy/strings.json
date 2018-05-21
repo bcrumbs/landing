@@ -1,0 +1,26 @@
+{
+    "name": {
+        "en": "Icon",
+        "ru": "Иконка"
+    },
+    "description": {
+        "en": "",
+        "ru": ""
+    },
+    "props_source": {
+        "en": "Source",
+        "ru": "Источник"
+    },
+    "props_source_desc": {
+        "en": "Icon source",
+        "ru": "Источник иконки"
+    },
+    "props_source_fontAwesome": {
+        "en": "Font Awesome",
+        "ru": ""
+    },
+    "props_source_library": {
+        "en": "User library",
+        "ru": "Пользовательская библиотека"
+    }
+}

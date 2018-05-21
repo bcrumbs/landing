@@ -1,0 +1,134 @@
+{
+    "name": {
+        "en": "IconFontAwesome",
+        "ru": "Иконка FontAwesome"
+    },
+    "description": {
+        "en": "",
+        "ru": ""
+    },
+    "props_name": {
+        "en": "Name",
+        "ru": "Название"
+    },
+    "props_name_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_size": {
+        "en": "Size",
+        "ru": "Размер"
+    },
+    "props_size_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_size_default": {
+        "en": "Default",
+        "ru": "По умолчанию"
+    },
+    "props_size_lg": {
+        "en": "Large",
+        "ru": "Большая"
+    },
+    "props_size_2x": {
+        "en": "2x",
+        "ru": "2x"
+    },
+    "props_size_3x": {
+        "en": "3x",
+        "ru": "3x"
+    },
+    "props_size_4x": {
+        "en": "4x",
+        "ru": "4x"
+    },
+    "props_size_5x": {
+        "en": "5x",
+        "ru": "5x"
+    },
+    "props_spin": {
+        "en": "Spin",
+        "ru": "Вращение"
+    },
+    "props_spin_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_pulse": {
+        "en": "Pulse",
+        "ru": "Пульсация"
+    },
+    "props_pulse_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_border": {
+        "en": "Border",
+        "ru": "Рамка"
+    },
+    "props_border_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_fixed_width": {
+        "en": "Fixed width",
+        "ru": "Фиксированная ширина"
+    },
+    "props_fixed_width_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_inverse": {
+        "en": "Alternative color",
+        "ru": "Альтернативный цвет"
+    },
+    "props_inverse_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_flip": {
+        "en": "Flip",
+        "ru": "Отражение"
+    },
+    "props_flip_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_flip_none": {
+        "en": "None",
+        "ru": "Нет"
+    },
+    "props_flip_horizontal": {
+        "en": "Horizontal",
+        "ru": "По горизонтали"
+    },
+    "props_flip_vertical": {
+        "en": "Vertical",
+        "ru": "По вертикали"
+    },
+    "props_rotate": {
+        "en": "Rotate",
+        "ru": "Поворот"
+    },
+    "props_rotate_desc": {
+        "en": "",
+        "ru": ""
+    },
+    "props_rotate_0": {
+        "en": "0\u00B0",
+        "ru": "0\u00B0"
+    },
+    "props_rotate_90": {
+        "en": "90\u00B0",
+        "ru": "90\u00B0"
+    },
+    "props_rotate_180": {
+        "en": "180\u00B0",
+        "ru": "180\u00B0"
+    },
+    "props_rotate_270": {
+        "en": "270\u00B0",
+        "ru": "270\u00B0"
+    }
+}

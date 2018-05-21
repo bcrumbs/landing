@@ -1,0 +1,141 @@
+{
+    "displayName": "IconFontAwesome",
+    "textKey": "name",
+    "descriptionTextKey": "description",
+    "kind": "atomic",
+    "group": "media",
+    "props": {
+        "name": {
+            "textKey": "props_name",
+            "descriptionTextKey": "props_name_desc",
+            "type": "string",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": "cube"
+                }
+            }
+        },
+        "size": {
+            "textKey": "props_size",
+            "descriptionTextKey": "props_size_desc",
+            "type": "oneOf",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": "default"
+                }
+            },
+            "options": [
+                { "value": "default", "textKey": "props_size_default" },
+                { "value": "lg", "textKey": "props_size_lg" },
+                { "value": "2x", "textKey": "props_size_2x" },
+                { "value": "3x", "textKey": "props_size_3x" },
+                { "value": "4x", "textKey": "props_size_4x" },
+                { "value": "5x", "textKey": "props_size_5x" }
+            ]
+        },
+        "spin": {
+            "textKey": "props_spin",
+            "descriptionTextKey": "props_spin_desc",
+            "type": "bool",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": false
+                }
+            }
+        },
+        "pulse": {
+            "textKey": "props_pulse",
+            "descriptionTextKey": "props_pulse_desc",
+            "type": "bool",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": false
+                }
+            }
+        },
+        "border": {
+            "textKey": "props_border",
+            "descriptionTextKey": "props_border_desc",
+            "type": "bool",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": false
+                }
+            }
+        },
+        "fixedWidth": {
+            "textKey": "props_fixed_width",
+            "descriptionTextKey": "props_fixed_width_desc",
+            "type": "bool",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": false
+                }
+            }
+        },
+        "inverse": {
+            "textKey": "props_inverse",
+            "descriptionTextKey": "props_inverse_desc",
+            "type": "bool",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": false
+                }
+            }
+        },
+        "flip": {
+            "textKey": "props_flip",
+            "descriptionTextKey": "props_flip_desc",
+            "type": "oneOf",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": "none"
+                }
+            },
+            "options": [
+                { "value": "none", "textKey": "props_flip_none" },
+                { "value": "horizontal", "textKey": "props_flip_horizontal" },
+                { "value": "vertical", "textKey": "props_flip_vertical" }
+            ]
+        },
+        "rotate": {
+            "textKey": "props_rotate",
+            "descriptionTextKey": "props_rotate_desc",
+            "type": "oneOf",
+            "source": ["static"],
+            "sourceConfigs": {
+                "static": {
+                    "default": 0
+                }
+            },
+            "options": [
+                { "value": 0, "textKey": "props_rotate_0" },
+                { "value": 90, "textKey": "props_rotate_90" },
+                { "value": 180, "textKey": "props_rotate_180" },
+                { "value": 270, "textKey": "props_rotate_270" }
+            ]
+        }
+    },
+    "placement": {
+        "inside": {
+            "include": [
+                { "tag": "all" },
+                { "tag": "block" },
+                { "tag": "text" },
+                { "tag": "article" },
+                { "tag": "sidebar" },
+                { "tag": "header" },
+                { "tag": "footer" },
+                { "tag": "app" }
+            ]
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "displayName": "Icon",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "atomic",
+  "group": "media",
+  "props": {
+    "source": {
+      "textKey": "props_source",
+      "descriptionTextKey": "props_source_desc",
+      "type": "string",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "font-awesome"
+        }
+      },
+      "options": [
+        { "value": "font-awesome", "textKey": "props_source_fontAwesome" },
+        { "value": "library", "textKey": "props_source_library" }
+      ]
+    }
+  },
+  "placement": {
+    "inside": {
+      "include": [
+        { "tag": "all" },
+        { "tag": "block" },
+        { "tag": "text" },
+        { "tag": "article" },
+        { "tag": "sidebar" },
+        { "tag": "header" },
+        { "tag": "footer" },
+        { "tag": "app" }
+      ]
+    }
+  }
+}
