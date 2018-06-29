@@ -1,6 +1,6 @@
 {
   "name": "braincrumbs-landing",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Braincrumbs brand page",
   "main": "index.js",
   "scripts": {

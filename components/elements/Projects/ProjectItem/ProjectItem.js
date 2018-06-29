@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import { Button } from '../../Button/Button';
 import {
@@ -13,40 +11,33 @@ import { ProjectButtonRowStyled } from './styles/ProjectButtonRowStyled';
 import { ProjectsBgBlockStyled } from './styles/ProjectsBgBlockStyled';
 import { icons } from '../../../../styles/assets/icons';
 
-const propTypes = {
-};
-const defaultProps = {
-};
-
-export const ProjectItem = () => (
+export const ProjectItem = ({
+  title,
+  description,
+  href,
+  patternId,
+}) => (
   <ProjectItemStyled>
-    <ProjectsBgBlockStyled />
+    <ProjectsBgBlockStyled patternId={patternId} />
     <ProjectItemContentStyled>
-      <Display level={4}>Reactackle</Display>
+      <Display level={4}>{title}</Display>
       <DashedBox>
-        <BodyParagraph>
-          Open-source components library built with React and
-          Styled-Components.
-        </BodyParagraph>
-        
+        <BodyParagraph>{description}</BodyParagraph>
+
         <ProjectButtonRowStyled>
           <Button
-            text="Discover project"
-            size="large"
+            text="Discover"
+            size="normal"
             icon={{
               name: '',
               type: 'library',
               src: icons.arrowSlimRight,
             }}
             iconPositionRight
-            href="https://reactackle.braincrumbs.io"
+            href={href}
           />
         </ProjectButtonRowStyled>
       </DashedBox>
     </ProjectItemContentStyled>
   </ProjectItemStyled>
 );
-
-ProjectItem.displayName = 'ProjectItem';
-ProjectItem.propTypes = propTypes;
-ProjectItem.defaultProps = defaultProps;

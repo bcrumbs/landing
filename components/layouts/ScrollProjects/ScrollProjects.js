@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import { Section } from '../../elements/Section/Section';
 import {
@@ -19,7 +17,22 @@ export const ScrollProjects = () => (
     name="projects"
   >
     <ProjectsList>
-      <ProjectItem />
+      <ProjectItem
+        title="Reactackle"
+        description="Open-source components library built with React and
+          Styled-Components"
+        href="https://reactackle.braincrumbs.io"
+        patternId={1}
+      />
+
+      <ProjectItem
+        title="Booben"
+        description="Full-stack web app developing platform: design, develop,
+        connect data, get source code - all in one place"
+        href="https://booben.io"
+        patternId={2}
+      />
+
     </ProjectsList>
   </Section>
 );
