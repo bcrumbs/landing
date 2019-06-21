@@ -1,21 +1,13 @@
 import React from 'react';
 import { Section } from '../../elements/Section/Section';
-import {
-  ProjectsList,
-  ProjectItem,
-} from '../../elements/Projects';
+import { ProjectsList, ProjectItem } from '../../elements/Projects';
 import { images } from '../../../styles/assets/images';
 
 const propTypes = {};
 const defaultProps = {};
 
 export const ScrollProjects = () => (
-  <Section
-    bgImage={images.scrollBgProjects}
-    label="Our projects"
-    id="projects"
-    name="projects"
-  >
+  <Section bgImage={images.scrollBgProjects} id="projects" name="projects">
     <ProjectsList>
       <ProjectItem
         title="Reactackle"
@@ -28,11 +20,10 @@ export const ScrollProjects = () => (
       <ProjectItem
         title="Booben"
         description="Full-stack web app developing platform: design, develop,
-        connect data, get source code - all in one place"
+        connect data, get source code — all in one place"
         href="https://booben.io"
         patternId={2}
       />
-
     </ProjectsList>
   </Section>
 );

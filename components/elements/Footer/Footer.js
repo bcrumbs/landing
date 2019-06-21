@@ -8,7 +8,7 @@ const defaultProps = {};
 
 export const Footer = () => (
   <FooterStyled>
-    &copy; Braincrumbs, 2017
+    &copy; Braincrumbs, 2019
   </FooterStyled>
 );
 
