@@ -12,7 +12,7 @@ export const ScrollProjects = () => (
       <ProjectItem
         title="Reactackle"
         description="Open-source components library built with React and
-          Styled-Components"
+          Styled-Components."
         href="https://reactackle.braincrumbs.io"
         patternId={1}
       />
@@ -20,9 +20,16 @@ export const ScrollProjects = () => (
       <ProjectItem
         title="Booben"
         description="Full-stack web app developing platform: design, develop,
-        connect data, get source code — all in one place"
+        connect data, get source code — all in one place."
         href="https://booben.io"
         patternId={2}
+      />
+
+      <ProjectItem
+        title="Nabla"
+        description="Digital wallet, connecting all your friends."
+        href="https://getnabla.app"
+        patternId={3}
       />
     </ProjectsList>
   </Section>

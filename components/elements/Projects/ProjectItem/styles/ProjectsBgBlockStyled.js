@@ -14,7 +14,15 @@ const pattern = [
     height: 80px;
     width: 210px;
     left: -50%;
-    background: linear-gradient(-130deg, #055AAF, palevioletred);
+    background: linear-gradient(-130deg, #006aff, #ff8a9c);
+  `,
+
+  `
+    height: 180px;
+    width: 180px;
+    left: -50%;
+    transform: rotate(15deg);
+    background: linear-gradient(130deg, #1F5EFF, #D61FFF);
   `,
 ];
 
@@ -22,10 +30,10 @@ export const ProjectsBgBlockStyled = styled.div`
   display: none;
   position: absolute;
   z-index: 0;
-  
+
   @media only screen and (min-width: 40em) {
     display: block;
   }
-  
+
   ${props => pattern[props.patternId - 1]}
 `;

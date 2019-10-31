@@ -59,8 +59,7 @@ export const blueGreyPalette = {
 
 // FONT
 export const fontFamily = {
-  sansSerif:
-    "'Open Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif",
+  sansSerif: "Lato, 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif",
   serif: "Georgia, Cambria, 'Times New Roman', Times, serif",
   monospace: "Consolas, 'Liberation Mono', Courier, monospace",
 };
@@ -79,7 +78,7 @@ export const fontSize = {
   1: 25,
   2: 31,
   3: 39,
-  
+
   4: 48,
   5: 62,
   6: 88,
